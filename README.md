@@ -31,6 +31,12 @@ Interested in browse getcomposer.org
   > require update
 ## Use installed package composer in php
   > require_one __DIR__."<path to autoload.php : /vendor/autoload.php>";
+## Loading all required file using autoload key in composer.json
+  > "autoload": { <"files": ["path_to_file/file1.ext", "path_to_file/file2.ext", ...]> }
+## Loading all required class using autoload key in composer.json
+  > "autoload": { <"classmap": ["classDirectory1/", "classDirectory2", ...]> }
+## Loading all required namespace classes using autoload key in composer.json
+  > "autoload": { <"psr-4": {"namespace\\": ["directory/"]>}}
   
   
   
