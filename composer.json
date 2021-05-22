@@ -1,0 +1,15 @@
+{
+    "name": "joe2/master",
+    "description": "Joel is mastering composer usage",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "joel uwineza",
+            "email": "joeluwineza35@gmail.com"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "^6.0"
+    }
+}
