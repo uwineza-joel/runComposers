@@ -37,6 +37,9 @@ Interested in browse getcomposer.org
   > "autoload": { <"classmap": ["classDirectory1/", "classDirectory2", ...]> }
 ## Loading all required namespace classes using autoload key in composer.json
   > "autoload": { <"psr-4": {"namespace\\": ["directory/"]>}}
-  
+## freshing autoload
+  > composer autoload dump
+## to evade fresh autoload after every change add "config" key in composer.json
+  > "config": { "optimiza-autoload": true }
   
   
